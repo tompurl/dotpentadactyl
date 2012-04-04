@@ -1,1 +1,4 @@
 set defsearch=duckduckgo
+
+" Pass throughs
+autocmd LocationChange '^https?://(www|mail)\.google\.com/' :normal! <C-z>
